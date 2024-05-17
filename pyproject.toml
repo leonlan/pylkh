@@ -20,7 +20,7 @@ tabulate = "~0.8.7"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
 pytest-xdist = "^3.3.1"
-twine = "^4.0.2"
+# twine = "^4.0.2" # See https://github.com/leonlan/pylkh/issues/1
 
 [build-system]
 requires = ["poetry-core"]
